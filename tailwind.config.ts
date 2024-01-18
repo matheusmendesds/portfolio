@@ -13,6 +13,19 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        'roxoPrincipal':'#5B1D8A',
+        'azulClaro':'#1D8A86',
+        'marrom':'#8A431D',
+        'roxoEscuro':'#2A1D35',
+        'verde':'#808A1D',
+      },
+      fontFamily:{
+        'Header':['Rye'],
+        'TextLaila':['Laila'],
+        'TextRoboto':['Roboto'],
+        'TextLibreCaslon':['Libre Caslon Display']
+      }
     },
   },
   plugins: [],
