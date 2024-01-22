@@ -1,9 +1,6 @@
-import Image from "next/image"
 import Socials from "@/components/layout/Socials"
 
 export default function Inicio(){
-
-
     return (
         <div id="inicio"  className="h-screen bg-roxoPrincipal flex justify-center" >
             <section className="card_info font-Roboto text-white ">

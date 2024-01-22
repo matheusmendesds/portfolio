@@ -46,8 +46,24 @@ body{
   font-weight: 600;
 }
 
-.section_socials {
-  display: flex;
+.socials {
   align-items: flex-end;
-  align-self: center;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  animation: icons_move 6s infinite alternate;
+}
+
+@keyframes icons_move{
+  0% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(420%);
+  }
+}
+
+.icon :hover {
+  color: rgba(0, 0, 0, 0.568);
 }
