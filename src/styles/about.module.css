@@ -1,0 +1,7 @@
+.content_box {
+    background-color: rgb(29 138 134);
+    color: black;
+    width: 50%;
+    display: flex;
+    justify-items: center;
+}
