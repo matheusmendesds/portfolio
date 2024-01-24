@@ -1,0 +1,56 @@
+
+.card {
+    display: inline-flex;
+    width: 27%;
+    justify-content: center;
+    margin: 3%;
+    height: 35vh;
+   
+}
+
+.card_projetos {
+    align-items: center;
+    background-color: #212529;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.9), 0 6px 20px 0 rgba(0,0,0,.9);
+    color: #0affa9;
+    display: flex;
+    flex-direction: column;
+    
+    
+} 
+
+.popup {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.popup_imagem {
+    background-color: black;
+    border-radius: 4px;
+    max-height: 95%;
+    max-width: 60%;
+    padding: 0 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_informative {
+    color: blue;
+}
+

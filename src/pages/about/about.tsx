@@ -4,7 +4,7 @@ import styles from '@/styles/about.module.css'
 export default function About() {
     
     return (
-        <section id="about" className=" text-white h-screen bg-roxoEscuro text-center-flex">
+        <section id="about" className=" text-white  bg-roxoEscuro text-center-flex">
             <HeaderAbout/>
             <div>
             <TextAbout/>

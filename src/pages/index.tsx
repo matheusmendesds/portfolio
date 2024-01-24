@@ -2,7 +2,7 @@ import Navbar from "@/components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
 
 import About from "./about/about"
-import Project from "./project/Project"
+import Projects from "./Projects/Projects"
 import Contact from "./contact/Contact"
 import Inicio from "./Inicio/Inicio"
 
@@ -20,7 +20,7 @@ export default function Home() {
             <div className="bg-roxoEscuro">teste</div>
           </div> */}
           <About/>
-          <Project/>
+          <Projects/>
           <Contact/>
           
     </>
