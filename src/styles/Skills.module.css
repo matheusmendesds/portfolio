@@ -1,0 +1,9 @@
+.box_skills {
+    display: flex;
+    margin-top: 10px;
+}
+
+.title_skills {
+    margin-bottom: 20px;
+    font-size: medium;
+}

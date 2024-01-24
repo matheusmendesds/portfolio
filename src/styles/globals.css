@@ -46,3 +46,9 @@ body{
   font-weight: 600;
 }
 
+.about_content {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+}
