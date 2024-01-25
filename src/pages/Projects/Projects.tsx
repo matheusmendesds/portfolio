@@ -7,7 +7,7 @@ import imgcalc from '../../components/Img/calcjs.png'
 
 
 import HeaderProjects from "@/components/layout/Headers/HeaderProjects"
-import CardProjects from '@/components/Projects/CardProjects'
+import CardProjects from '@/components/CardProjects/CardProjects'
 const ProjectsData = [
       {
         id:1,
@@ -80,7 +80,7 @@ const ProjectsData = [
 export default function Projects() {
   return (
   
-    <div className='bg-roxoPrincipal'>
+    <div id='projects' className='bg-roxoPrincipal'>
     <HeaderProjects/>
       
         {

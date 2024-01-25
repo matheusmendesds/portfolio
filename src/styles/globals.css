@@ -48,8 +48,16 @@ body{
 
 .about_content {
   display: flex;
-  width: 60%;
+  width: 45%;
   margin: auto;
   border-radius: 10px;
+  padding-bottom: 10px;
 }
+
+/* @media screen and (min-width: 768px) and (max-width: 992px) {
+  div#about_content {
+    width: 15%;
+    background-color: blue;
+  }
+} */
 

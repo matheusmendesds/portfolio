@@ -38,20 +38,20 @@ export default function CardProjects(props:ProjectProps) {
                 <Image src={props.img} width={402} alt='site do projeto'/>
               </section>
               <section className='flex'>
-                <button className=' p-1' onClick={showPopup}><FaInfo/></button>
-                <Link className=' p-1' href={props.linkGithub} target='_blank'><FaGithub className='icon_btn'/></Link>
-                <Link className='p-1' href={props.linkPage} target='_blank'><FaLink className='icon_btn'/></Link>
+                <button className='p-1' onClick={showPopup}><abbr title='Mais informações'><FaInfo/></abbr></button>
+                <Link className=' p-1' href={props.linkGithub} target='_blank'><abbr title='Acessar no GitHub'><FaGithub className='icon_btn'/></abbr></Link>
+                <Link className='p-1' href={props.linkPage} target='_blank'><abbr title='Acessar o Site do projeto'><FaLink className='icon_btn'/></abbr></Link>
               </section>
-              <ReactTooltip place="right" className='custom-tooltip' delayHide={300} effect='solid'/>
+              
             </div>
             {popupState ? (
-              <section className='popup'>
-                <div className='popup_imagem'>
+              <section className={styles.popup}>
+                <div className={styles.popup_imagem}>
                     <div>
-                        <button onClick={hidePopup}><FaTimes/></button>
+                        <button data-tip='Saiba mais' onClick={hidePopup}><FaTimes/></button>
                     </div>
-                    <Image src={props.img} width={402} alt='site do projeto'/>
-                    <div className='popup_informative'>
+                    <Image className={styles.image} src={props.img} width={402} alt='site do projeto'/>
+                    <div className={styles.popup_informative}>
                       <p>Nome do Projeto:{props.name}</p>
                       <p>Descrição:{props.desc}</p>
                       <p>Feito em:{props.technologies}</p>
