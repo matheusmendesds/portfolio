@@ -1,9 +1,17 @@
 .box_skills {
     display: flex;
     margin-top: 10px;
+    text-align: center;
+    justify-content: center;
 }
 
 .title_skills {
-    margin-bottom: 20px;
-    font-size: medium;
+    font-size: small;
+   
+    
 }
+@media screen and (min-width: 640px) {
+    .title_skills {
+        font-size: medium;
+    }
+  }

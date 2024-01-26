@@ -47,12 +47,13 @@ body{
 }
 
 .about_content {
-  display: flex;
-  width: 45%;
+  letter-spacing: 2px;
+  width: 50%;
   margin: auto;
+  padding: 10px;
   border-radius: 10px;
-  padding-bottom: 10px;
 }
+
 
 /* @media screen and (min-width: 768px) and (max-width: 992px) {
   div#about_content {

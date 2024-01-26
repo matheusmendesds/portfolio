@@ -1,16 +1,24 @@
 
 .card {
-    display: inline-flex;
-    width: 27%;
+    display: inline;
+    width: 20%;
     justify-content: center;
     margin: 3%;
-    height: 35vh;
+    height: 18vh;
    
 }
 
+@media screen and (min-width: 503px) {
+   .card {
+      display: inline-flex;
+      margin-left: 100px;
+    }
+  }
+
+
 .card_projetos {
     align-items: center;
-    background-color: #212529;
+    background-color: rgb(54, 6, 54);
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.9), 0 6px 20px 0 rgba(0,0,0,.9);
     color: #0affa9;
