@@ -41,9 +41,23 @@ body{
 }
 
 .card_title {
-  font-size: 4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
+}
+.card_desc {
+  display: flex;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+@media screen and (min-width:768px) {
+  .card_title {
+    font-size: 4rem;
+  }
+  .card_desc {
+    font-size: 1.2rem;
+  }
 }
 
 .about_content {

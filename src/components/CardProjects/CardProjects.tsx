@@ -34,8 +34,8 @@ export default function CardProjects(props:ProjectProps) {
         <div className={styles.card}>
             <div className={styles.card_projetos}>
               <section>
-                <p className=' text-white text-center'>{props.name}</p>
-                <Image src={props.img} width={402} alt='site do projeto'/>
+                <p className='text-azulClaro  text-center text-sm'>{props.name}</p>
+                <Image className={styles.card_img} src={props.img} width={402} alt='site do projeto'/>
               </section>
               <section className='flex'>
                 <button className='p-1' onClick={showPopup}><abbr title='Mais informações'><FaInfo/></abbr></button>

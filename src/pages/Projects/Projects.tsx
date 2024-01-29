@@ -80,7 +80,7 @@ const ProjectsData = [
 export default function Projects() {
   return (
   
-    <div id='projects' className='bg-roxoPrincipal h-12/12'>
+    <div id='projects' className='bg-roxoPrincipal font-TextLaila'>
     <HeaderProjects/>
       
         {

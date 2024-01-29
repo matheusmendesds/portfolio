@@ -1,8 +1,8 @@
 import Navbar from "@/components/layout/Navbar"
-import Footer from "@/components/layout/Footer"
+
 
 import About from "./about/about"
-import Projects from "./projects/Projects"
+import Projects from "./projects/projects"
 import Contact from "./contact/Contact"
 import Inicio from "./Inicio/Inicio"
 

@@ -1,19 +1,22 @@
 
 .card {
-    display: inline;
-    width: 20%;
+    display: flex;
+    width: 500px;
     justify-content: center;
-    margin: 3%;
-    height: 18vh;
+    margin: auto;
+    padding: 10px;
    
 }
 
-@media screen and (min-width: 503px) {
+
+
+@media screen and (min-width: 768px) {
    .card {
-      display: inline-flex;
-      margin-left: 100px;
+      display: block;
+      margin: auto;
+      
     }
-  }
+  } 
 
 
 .card_projetos {
@@ -47,7 +50,7 @@
 }
 
 .popup_imagem {
-    background-color: #212529;
+    background-color: rgb(54, 6, 54);
     color: white;
     border-radius: 4px;
     max-height: 95%;
