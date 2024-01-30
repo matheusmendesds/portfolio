@@ -8,6 +8,12 @@
    
 }
 
+@media screen and (min-width: 250px) and (max-width:499px) {
+  .card {
+     padding: 2px;
+   }
+ } 
+
 
 
 @media screen and (min-width: 768px) {
