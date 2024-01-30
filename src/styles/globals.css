@@ -9,13 +9,12 @@
   margin: 0;
 }
 
-html {
+html,body {
   scroll-behavior: smooth;
+ overflow-x: hidden;
 }
 
-body{
-  background-color: black;
-}
+
 
 .titulo {
   font-size: 80px;
