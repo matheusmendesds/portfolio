@@ -2,7 +2,7 @@ import Navbar from "@/components/layout/Navbar"
 
 
 import About from "./about/about"
-import Projects from "@/pages/Projects/Projects"
+import Projects from "@/pages/ProjectsPage/ProjectsPage"
 import Contact from "./contact/Contact"
 import Inicio from "./Inicio/Inicio"
 
