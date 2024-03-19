@@ -4,7 +4,7 @@ import imgsocial from '../../components/Img/social.png'
 import imglogin from '../../components/Img/login.png'
 import imgorgespor from '../../components/Img/orgesportiva.png'
 import imgcalc from '../../components/Img/calcjs.png'
-
+import imgpoke from  '../../components/Img/pokenext.png'
 
 import HeaderProjects from "@/components/layout/Headers/HeaderProjects"
 import CardProjects from '@/components/CardProjects/CardProjects'
@@ -74,7 +74,20 @@ const ProjectsData = [
         technologies:'HTML,CSS,Javascript',
         desc:'Calculadora criada com javascript para aprendizado',
         finished:true
+      },
+      {
+        id:7,
+        name:'Poxenext',
+        img:imgpoke,
+        type:'Curso',
+        linkGitHub:'https://github.com/matheusmendesds/pokenext',
+        linkPage:'https://pokenext-orpin.vercel.app/',
+        technologies:'NextJs,Typescript',
+        desc:'Projeto criado pelo Curso de NextJs do HoradeCodar no Youtube',
+        finished:true
+
       }
+
 ];
 
 export default function ProjectsPage() {
